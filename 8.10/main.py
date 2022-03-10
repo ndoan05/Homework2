@@ -1,16 +1,16 @@
 # Nam Doan
 # PSID: 1847037
 
-def isPalindrome(string):
-    string = string.replace(" ","")
+def aPalindrome(string):
+    string = string.replace(" ", "")
     return string == string[::-1]
 
 
-palintest = str(input())
-test = isPalindrome(palintest)
+palinword = str(input())
+testPalindrome = aPalindrome(palinword)
 
 
-if test:
-    print(palintest, "is a palindrome")
+if testPalindrome:
+    print(palinword, "is a palindrome")
 else:
-    print(palintest, "is not a palindrome")
+    print(palinword, "is not a palindrome")
