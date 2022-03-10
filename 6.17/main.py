@@ -1,10 +1,10 @@
 # Nam Doan
 # 1847037
 
-word = input()
+words = input()
 password = ''
 
-for character in word:
+for character in words:
 
     if (character == 'i'):
         password += '!'
